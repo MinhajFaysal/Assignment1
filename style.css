@@ -1,4 +1,102 @@
-.top{
+
+section{
     display: flex;
-    width: 50%;
 }
+
+.half-width{
+    width: 50%;
+    padding-left: 80px;
+}
+
+.half-width img{
+    width: 70%;
+}
+
+.font-size{
+    font-size: 70px;
+    border-left: 5px solid orange;
+}
+
+.half-width p{
+    padding-right: 10%;
+    font-size: 18px;
+}
+
+#explore-btn{
+    text-decoration: none;
+    padding: 6px 11px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+}
+
+#first-heading{
+    margin-bottom: 5px;
+}
+
+#text-center{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.text-color{
+    color: tomato;
+}
+
+.second-part-1st-portion{
+    width: 25%;
+    padding-left: 30px;
+    background-color: #f7d7f7;
+    margin-left: 60px;
+    border-radius: 14px;
+
+}
+
+.second-part-1st-portion img{
+    height:42%;
+    width: 35%;
+    padding-left: 30px;
+}
+
+.second-part-1st-portion p{
+    font-size: 16px;
+}
+
+.second-part-2nd-portion{
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(197, 255, 255);
+    margin-left: 30px;
+    border-radius: 14px;
+}
+
+.second-part-2nd-portion p{
+    font-size: 16px;
+}
+.second-part-2nd-portion img{
+    height: 42%;
+    width: 35%;
+    padding-left: 30px;
+}
+
+.second-part-3rd-portion{
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(210, 228, 255);
+    margin-left: 30px;
+    border-radius: 14px;
+}
+
+.second-part-3rd-portion p{
+    font-size: 16px;
+}    
+.second-part-3rd-portion img{
+    height: 42%;
+    width: 35%;
+    padding-left: 30px;
+}
+
