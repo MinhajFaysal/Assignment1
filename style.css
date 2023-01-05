@@ -6,6 +6,10 @@ section{
 .half-width{
     width: 50%;
     padding-left: 80px;
+    margin-top: -10px;
+}
+.half-width .heading-text{
+    margin-top: 150px;
 }
 
 .half-width img{
@@ -13,25 +17,35 @@ section{
 }
 
 .font-size{
-    font-size: 70px;
-    border-left: 5px solid orange;
+    font-size: 40px;
 }
 
 .half-width p{
     padding-right: 10%;
     font-size: 18px;
+    margin-top: 40px;
 }
 
 #explore-btn{
     text-decoration: none;
-    padding: 6px 11px;
+    padding: 8px 14px;
     color: white;
     border-radius: 5px;
     background-image: linear-gradient(orange, tomato);
 }
 
+#explore-btn:hover{
+    color: red;
+    transition: .4s;
+}
+
 #first-heading{
-    margin-bottom: 5px;
+    margin-bottom: -53px;
+}
+
+.heading-text{
+    border-left: 5px solid orange;
+    height: 120px;
 }
 
 #text-center{
@@ -56,8 +70,9 @@ section{
 
 .second-part-1st-portion img{
     height:42%;
-    width: 35%;
-    padding-left: 30px;
+    width: 40%;
+    margin-left: -10px;
+    margin-bottom: -10px;
 }
 
 .second-part-1st-portion p{
@@ -77,9 +92,10 @@ section{
     font-size: 16px;
 }
 .second-part-2nd-portion img{
-    height: 42%;
-    width: 35%;
-    padding-left: 30px;
+    height:42%;
+    width: 40%;
+    margin-left: -12px;
+    margin-bottom: -10px;
 }
 
 .second-part-3rd-portion{
@@ -95,8 +111,31 @@ section{
     font-size: 16px;
 }    
 .second-part-3rd-portion img{
-    height: 42%;
-    width: 35%;
-    padding-left: 30px;
+    height:42%;
+    width: 40%;
+    margin-left: -10px;
+    margin-bottom: -10px;
 }
 
+.coding-pic-part{
+    margin-top: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+.global-community{
+    margin-bottom: 50px;
+}
+
+.for-top{
+    margin-top: 100px;
+}
+
+.footer-content{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 37);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
